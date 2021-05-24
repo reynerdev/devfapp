@@ -1,0 +1,16 @@
+.Navbar {
+    background-color: aqua;
+}
+.Logo {
+    cursor: pointer;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0 20px;
+    text-decoration: none;
+}
+
+.nav_links a {
+    text-decoration: none;
+}
