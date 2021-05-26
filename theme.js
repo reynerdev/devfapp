@@ -46,7 +46,36 @@ const theme = {
   },
 
   Request: {
+    color: 'primaryMain',
+    width: '60%',
     display: 'flex',
+    padding: '1em',
+    'align-items': 'center',
+    justifyContent: 'center',
+    '> div:not(:first-child)': { marginLeft: '1.2em' },
+    background:
+      'linear-gradient(to left top, rgba(255,255,255,1),rgba(255,255,255,0.8))',
+    '& .Title': {
+      fontSize: '1.1em',
+      fontWeight: 700,
+      marginBottom: '1em',
+    },
+    borderRadius: '1em',
+
+    '.middlePart': {
+      width: '50%',
+    },
+
+    '.description': {
+      overflow: 'hidden',
+      textOverflow: 'ellipsis',
+      color: 'gray',
+      fontWeight: '700',
+    },
+    '.downPayment , .totalPayment': {
+      fontSize: '1.2rem',
+      fontWeight: 700,
+    },
   },
   styles: {
     ...roboto.styles,

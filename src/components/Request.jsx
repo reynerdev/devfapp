@@ -24,22 +24,27 @@ const props = {
 
 const Request = () => {
   return (
-    <div sx={{ variant: 'Request', backgroundColor: 'peru' }}>
+    <div sx={{ variant: 'Request' }}>
       <div className="Logo">
         <Image
           src="/images/profile.jpg"
-          width={50}
-          height={50}
+          width={'60px'}
+          height={'60px'}
           alt="Picture of the author"
           sx={{ borderRadius: '50%' }}
         />
       </div>
       <div className="middlePart">
         <div className="Title">Web design ecommerce project</div>
-        <div className="description"> Trying t</div>
+        <div className="description">
+          {' '}
+          Tryinsbdasdsdnkajsndkjasnd
+          kjasndsakjdnsdnaksjndaksjndaksjndaksjndakjsdnaskjndaksjndaksjndaskjnkjng
+          t
+        </div>
       </div>
       <div className="downPayment">{props.downPayment}</div>
-      <div className="totalPayment">{props.totalPayment}</div> ][
+      <div className="totalPayment">{props.totalPayment}</div>
     </div>
   );
 };
