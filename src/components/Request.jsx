@@ -24,7 +24,7 @@ const props = {
 
 const Request = () => {
   return (
-    <div>
+    <div sx={{ variant: 'Request', backgroundColor: 'peru' }}>
       <div className="Logo">
         <Image
           src="/images/profile.jpg"
@@ -38,8 +38,8 @@ const Request = () => {
         <div className="Title">Web design ecommerce project</div>
         <div className="description"> Trying t</div>
       </div>
-      <div className="downPayment">props.downPayment</div>
-      <div className="totalPayment">props.totalPayment</div>
+      <div className="downPayment">{props.downPayment}</div>
+      <div className="totalPayment">{props.totalPayment}</div> ][
     </div>
   );
 };

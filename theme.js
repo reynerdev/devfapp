@@ -1,3 +1,4 @@
+import { Flex } from '@theme-ui/components';
 import { roboto } from '@theme-ui/presets';
 
 const theme = {
@@ -44,6 +45,9 @@ const theme = {
     },
   },
 
+  Request: {
+    display: 'flex',
+  },
   styles: {
     ...roboto.styles,
 
