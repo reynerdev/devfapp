@@ -8,6 +8,7 @@ const Container = (props) => {
     <div
       sx={{
         display: 'flex',
+        width: '100%',
         alignItems: 'center',
         justifyContent: 'center',
         flexDirection: 'column',
@@ -19,7 +20,7 @@ const Container = (props) => {
       <div
         sx={{
           minHeight: '80vh',
-          width: '60%',
+          maxWidth: '60%',
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',

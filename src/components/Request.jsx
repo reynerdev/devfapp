@@ -37,14 +37,19 @@ const Request = () => {
       <div className="middlePart">
         <div className="Title">Web design ecommerce project</div>
         <div className="description">
-          {' '}
           Tryinsbdasdsdnkajsndkjasnd
           kjasndsakjdnsdnaksjndaksjndaksjndaksjndakjsdnaskjndaksjndaksjndaskjnkjng
           t
         </div>
       </div>
-      <div className="downPayment">{props.downPayment}</div>
-      <div className="totalPayment">{props.totalPayment}</div>
+      <div className="downPayment">
+        <div> Paid </div>
+        <div>{props.downPayment}</div>
+      </div>
+      <div className="totalPayment">
+        <div>Total</div>
+        <div>{props.totalPayment}</div>
+      </div>
     </div>
   );
 };

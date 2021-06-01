@@ -47,10 +47,10 @@ const theme = {
 
   Request: {
     color: 'primaryMain',
-    width: '60%',
+    maxWidth: '80%',
     display: 'flex',
     padding: '1em',
-    'align-items': 'center',
+    'align-items': 'stretch',
     justifyContent: 'center',
     '> div:not(:first-child)': { marginLeft: '1.2em' },
     background:
@@ -62,6 +62,10 @@ const theme = {
     },
     borderRadius: '1em',
 
+    '.Logo': {
+      display: 'flex',
+      alignItems: 'center',
+    },
     '.middlePart': {
       width: '50%',
     },
@@ -75,6 +79,8 @@ const theme = {
     '.downPayment , .totalPayment': {
       fontSize: '1.2rem',
       fontWeight: 700,
+      display: 'flex',
+      flexDirection: 'column',
     },
   },
   styles: {

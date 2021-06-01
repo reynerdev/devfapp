@@ -8,7 +8,8 @@ const Navbar = () => {
     <div
       className="Navbar"
       sx={{
-        width: '60%',
+        width: '100%',
+        maxWidth: '60%',
         marginBottom: '20px',
         background:
           'linear-gradient(to right bottom, rgba(255,255,255,1),rgba(255,255,255,0.3))',
